@@ -1,0 +1,16 @@
+{
+  "name": "one-to-one-streaming",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "cd static && bower install"
+  },
+  "dependencies": {
+    "express": "~4.12.4",
+    "minimist": "^1.1.1",
+    "ws": "~1.0.1",
+    "kurento-client": "Kurento/kurento-client-js"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}

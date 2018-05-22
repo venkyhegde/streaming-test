@@ -1,0 +1,18 @@
+{
+  "name": "one-to-one-streaming",
+  "description": "one-to-one-streaming",
+  "authors": [
+    "venky"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "dependencies": {
+    "adapter.js": "v0.2.9",
+    "bootstrap": "~3.3.0",
+    "draggabilly": "~1.2.4",
+    "demo-console": "1.5.1",
+    "kurento-utils": "master"
+  }
+}
