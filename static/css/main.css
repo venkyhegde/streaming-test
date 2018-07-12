@@ -10,7 +10,8 @@ body {
 
 video,#console {
 	display: block;
-	font-size: 14px;
+	
+	font-size: 10px;
 	line-height: 1.42857143;
 	color: #555;
 	background-color: #fff;
@@ -58,4 +59,12 @@ div.dragged {
 	cursor: all-scroll !important;
 	border-color: blue !important;
 	z-index: 10 !important;
+}
+.navbar-brand-top {
+    float: left;
+    height: 60px;
+	padding-top: 1px;
+	margin-bottom: 3px;
+    font-size: 18px;
+    line-height: 60px;
 }

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="bower_components/demo-console/index.css">
      <link rel="stylesheet" href="bower_components/ekko-lightbox/dist/ekko-lightbox.min.css"> 
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script src="bower_components/adapter.js/adapter.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -23,16 +23,18 @@
     <script src="bower_components/kurento-utils/js/kurento-utils.js"></script>
 
     <script src="js/index.js"></script>
-    <title>Video Call</title>
+    <title>College of Computing and Informatics</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/syclogo_ci_blk_F6s_icon.ico" />
   </head>
   <body>
 
    <header>
-      <div class="navbar navbar-dark bg-primary navbar-fixed-top mb-5">
+      <div class="navbar navbar-default bg-light navbar-fixed-top mb-5">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
-            <a class="navbar-brand" href="" style="color: white;font-weight: bolder;">Kurento Test</a>
+            <a class="navbar-brand-top" href="" style="color: white;font-weight: bolder;"><img src="images/SYCLogo_CI_blk.png" height="58px"/></a>
+            
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           </div>
@@ -41,6 +43,7 @@
     </header>
 
     <div class="container">
+     <br>
      <br>
       <div class="row mt-5">
          <div class="col-md-7">
@@ -52,28 +55,29 @@
           </div>
         </div>
         <div class="col-md-5">
-          <label class="control-label" for="name">Name</label>
+          <!-- <label class="control-label" for="name">Name</label> -->
           <div class="row">
             <div class="col-md-6">
-              <input id="name" name="name" class="form-control" type="text"/>
+              
+              <input id="name" name="name" class="form-control form-control-sm" type="text" placeholder="Name" title="Please enter your name  to register."/>
             </div>
             <div class="col-md-6 text-right">
-              <a id="register" href="#" class="btn btn-primary">
-                 Register</a>
+              <a id="register" href="#" class="btn btn-sm btn-primary">
+                  <i class="fas fa-user-plus"></i> Register</a>
             </div>
           </div>
           <br/>
           <br/>
-          <label class="control-label" for="peer">Peer</label>
+          <!-- <label class="control-label" for="peer">Invite Person</label> -->
           <div class="row">
             <div class="col-md-6">
-              <input id="peer" name="peer" class="form-control" type="text">
+              <input id="peer" name="peer" class="form-control form-control-sm" type="text" placeholder="Invite Person" title="Eneter registered user name to make call" />
             </div>
             <div class="col-md-6 text-right">
-              <a id="call" href="#" class="btn btn-success">
-                 Strat Call</a>
-              <a id="terminate" href="#" class="btn btn-danger">
-               Stop</a>
+              <a id="call" href="#" class="btn btn-sm btn-success">
+                  <i class="fas fa-phone"></i> Strat Call</a>
+              <a id="terminate" href="#" class="btn btn-sm btn-danger">
+                  <i class="fas fa-stop-circle"></i> Stop</a>
             </div>
           </div>
           <br/>
@@ -92,6 +96,16 @@
 
       </div>
     </div>
+    <div class="navbar navbar-default bg-white navbar-fixed-bottom">
+      <div class="container">
+        <div>
+          
+          <a class="navbar-brand" href="" style="color: black;font-weight:bold;font-size: 12px; text-align: center; margin-left: 40%;">UNC Charlotte | &reg; All rights reserved</a>
+        
+        </div>
+        
+        </div>
+      </div>
 
  
   </body>
